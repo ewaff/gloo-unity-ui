@@ -5,6 +5,7 @@
   "description": "Gloo Hackathon Demo",
   "private": true,
   "type": "module",
+  "homepage": "https://ewaff.github.io/gloo-unity-ui/",
   "scripts": {
     "dev": "vite",
     "start": "vite preview",
@@ -17,7 +18,9 @@
     "re:start": "yarn rm:all && yarn install && yarn dev",
     "re:build": "yarn rm:all && yarn install && yarn build",
     "re:build-npm": "npm run rm:all && npm install && npm run build",
-    "dev:host": "vite --host"
+    "dev:host": "vite --host",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "engines": {
     "node": "20.x"

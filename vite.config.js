@@ -21,6 +21,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/gloo-unity-ui/',
   resolve: {
     alias: [
       {
