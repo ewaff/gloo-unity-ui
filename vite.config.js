@@ -22,18 +22,18 @@ export default defineConfig({
     }),
   ],
   base: '/gloo-unity-ui/',
-  resolve: {
-    alias: [
-      {
-        find: /^~(.+)/,
-        replacement: path.join(process.cwd(), 'node_modules/$1'),
-      },
-      {
-        find: /^src(.+)/,
-        replacement: path.join(process.cwd(), 'src/$1'),
-      },
-    ],
-  },
-  server: { port: PORT, host: true },
-  preview: { port: PORT, host: true },
+  // resolve: {
+  //   alias: [
+  //     {
+  //       find: /^~(.+)/,
+  //       replacement: path.join(process.cwd(), 'node_modules/$1'),
+  //     },
+  //     {
+  //       find: /^src(.+)/,
+  //       replacement: path.join(process.cwd(), 'src/$1'),
+  //     },
+  //   ],
+  // },
+  // server: { port: PORT, host: true },
+  // preview: { port: PORT, host: true },
 });
