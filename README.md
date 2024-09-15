@@ -16,7 +16,3 @@ yarn build
 # or
 npm run build
 ```
-
-## Mock server
-
-By default we provide demo data from : `http://localhost:7272`
